@@ -12,23 +12,13 @@
 
 <body>
 
-  <script>
-    $(".jumbotron").css({
-      height: $(window).height() + "px"
-    });
 
-    $(window).on("resize", function() {
-      $(".jumbotron").css({
-        height: $(window).height() + "px"
-      });
-    });
-  </script>
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-    <span style="font-size: 2em; margin-right:0.7em; margin-left:0.2em; color: rgb(40, 40, 40);">
+    <span style="font-size: 2em; margin-right:0.7em; margin-left:0.2em; color: #282828;">
       <i class="fab fa-twitter"></i>
     </span>
-    <a class="navbar-brand" href="#">Bootstrap Examples</a>
+    <a class="navbar-brand" href="#">Landing Page</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -65,15 +55,20 @@
     <br>
   </div>
 
-  <div class="main-container" id="info">
-    <div class="custom-card">
-      <h1>Hello</h1>
-    </div>
-  </div>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
 
+  <script>
+    $(".jumbotron").css({
+      height: $(window).height() + "px"
+    });
+
+    $(window).on("resize", function() {
+      $(".jumbotron").css({
+        height: $(window).height() + "px"
+      });
+    });
+  </script>
 </body>
 
 </html>
