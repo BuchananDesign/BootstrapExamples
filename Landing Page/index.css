@@ -4,13 +4,13 @@ body {
 }
 
 .bg-light {
-  background-color: #f4f4f4 !important;
+  background-color: white !important;
 }
 
 .jumbotron {
   color: white;
   min-height: 100%;
-  background-color: #c4d6dd;
+  background-color: rgb(247, 247, 247);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -22,6 +22,8 @@ body {
   font-size: 2em;
   height: 65px;
   width: 26%;
+  border-color: #000;
+  border-width: 2px;
   margin-right: .4em;
 }
 
