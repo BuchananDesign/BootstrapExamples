@@ -1,0 +1,31 @@
+.custom-jumbotron {
+  background-image: url("./img/hero-lg.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.custom-about {}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+
+.custom-card-button {
+  margin-top: 5em;
+  width: 100%;
+}
+
+.custom-card {
+  color: white;
+  background-image: url("./img/card-blue.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  background-color: #0092ff;
+  color: white;
+}
